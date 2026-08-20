@@ -1,6 +1,6 @@
 {
   "id": "nuvio.malay.movies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Nuvio Filem Melayu",
   "description": "Addon khas untuk filem Melayu klasik & moden dari Malaysia, Singapura dan Indonesia.",
   "types": ["movie"],
@@ -12,11 +12,21 @@
   "catalogs": [
     {
       "type": "movie",
-      "id": "malay_movies",
-      "name": "Filem Melayu",
+      "id": "malay_classic",
+      "name": "Filem Melayu Klasik",
       "extra": [
-        { "name": "genre", "options": ["Drama", "Aksi", "Klasik", "Romantik", "Seram"] },
-        { "name": "country", "options": ["MY", "SG", "ID"] },
+        { "name": "genre", "options": ["Klasik", "Komedi", "Drama"] },
+        { "name": "country", "options": ["MY", "SG"] },
+        { "name": "language", "options": ["ms"] }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "malay_modern",
+      "name": "Filem Melayu Moden",
+      "extra": [
+        { "name": "genre", "options": ["Aksi", "Seram", "Romantik", "Drama"] },
+        { "name": "country", "options": ["MY", "ID"] },
         { "name": "language", "options": ["ms"] }
       ]
     }
@@ -30,9 +40,23 @@
       "country": "MY"
     },
     {
+      "id": "p_ramlee_madu_tiga",
+      "title": "Madu Tiga (1964)",
+      "url": "https://archive.org/download/madu-tiga-1964/madu-tiga.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
       "id": "modern_munafik",
       "title": "Munafik (2016)",
       "url": "https://archive.org/download/munafik-2016/munafik.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_polis_evo",
+      "title": "Polis Evo (2015)",
+      "url": "https://archive.org/download/polis-evo-2015/polis-evo.mp4",
       "language": "ms",
       "country": "MY"
     }
