@@ -1,6 +1,6 @@
 {
   "id": "nuvio.malay.movies",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "name": "Nuvio Filem Melayu",
   "description": "Addon khas untuk filem Melayu klasik & moden dari Malaysia, Singapura dan Indonesia.",
   "types": ["movie"],
@@ -36,6 +36,7 @@
       "id": "p_ramlee_bujang_lapok",
       "title": "Bujang Lapok (1957)",
       "url": "https://archive.org/download/bujang-lapok-1957/bujang-lapok.mp4",
+      "genre": "Klasik",
       "language": "ms",
       "country": "MY"
     },
@@ -43,6 +44,7 @@
       "id": "p_ramlee_madu_tiga",
       "title": "Madu Tiga (1964)",
       "url": "https://archive.org/download/madu-tiga-1964/madu-tiga.mp4",
+      "genre": "Klasik",
       "language": "ms",
       "country": "MY"
     },
@@ -50,6 +52,7 @@
       "id": "modern_munafik",
       "title": "Munafik (2016)",
       "url": "https://archive.org/download/munafik-2016/munafik.mp4",
+      "genre": "Seram",
       "language": "ms",
       "country": "MY"
     },
@@ -57,6 +60,31 @@
       "id": "modern_polis_evo",
       "title": "Polis Evo (2015)",
       "url": "https://archive.org/download/polis-evo-2015/polis-evo.mp4",
+      "genre": "Aksi",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_paskal",
+      "title": "Paskal (2018)",
+      "url": "https://archive.org/download/paskal-2018/paskal.mp4",
+      "genre": "Aksi",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_j_revolusi",
+      "title": "J Revolusi (2017)",
+      "url": "https://archive.org/download/j-revolusi-2017/j-revolusi.mp4",
+      "genre": "Aksi",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_hantu_kak_limah",
+      "title": "Hantu Kak Limah (2018)",
+      "url": "https://archive.org/download/hantu-kak-limah-2018/hantu-kak-limah.mp4",
+      "genre": "Komedi",
       "language": "ms",
       "country": "MY"
     }
