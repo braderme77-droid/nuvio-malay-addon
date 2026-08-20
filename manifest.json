@@ -6,9 +6,9 @@
   "types": ["movie"],
   "resources": ["catalog", "stream"],
   "upstreams": [
-    "https://v3-cinemeta.strem.io/manifest.json",
-    "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/manifest.json"
-  ],
+  "https://v3-cinemeta.strem.io/manifest.json",
+  "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/manifest.json"
+]
   "catalogs": [
     {
       "type": "movie",
