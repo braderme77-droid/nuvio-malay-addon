@@ -1,0 +1,93 @@
+{
+  "id": "nuvio.malay.movies",
+  "version": "1.0.0",
+  "name": "Nuvio Filem Melayu",
+  "description": "Addon khas untuk filem Melayu klasik & moden",
+  "types": ["movie"],
+  "resources": ["catalog", "stream"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "malay_movies",
+      "name": "Filem Melayu",
+      "extra": [
+        { "name": "genre", "options": ["Drama", "Aksi", "Klasik", "Romantik", "Seram"] },
+        { "name": "country", "options": ["MY", "SG", "ID"] },
+        { "name": "language", "options": ["ms"] }
+      ]
+    }
+  ],
+  "streams": [
+    {
+      "id": "p_ramlee_bujang_lapok",
+      "title": "Bujang Lapok (1957)",
+      "url": "https://archive.org/download/bujang-lapok-1957/bujang-lapok.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "p_ramlee_do_re_mi",
+      "title": "Do Re Mi (1966)",
+      "url": "https://archive.org/download/do-re-mi-1966/do-re-mi.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "p_ramlee_madu_tiga",
+      "title": "Madu Tiga (1964)",
+      "url": "https://archive.org/download/madu-tiga-1964/madu-tiga.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "p_ramlee_labuci",
+      "title": "Labuci (1962)",
+      "url": "https://archive.org/download/labuci-1962/labuci.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_munafik",
+      "title": "Munafik (2016)",
+      "url": "https://archive.org/download/munafik-2016/munafik.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_hantu_kak_limah",
+      "title": "Hantu Kak Limah (2018)",
+      "url": "https://archive.org/download/hantu-kak-limah-2018/hantu-kak-limah.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_polis_evo",
+      "title": "Polis Evo (2015)",
+      "url": "https://archive.org/download/polis-evo-2015/polis-evo.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_j_revolusi",
+      "title": "J Revolusi (2017)",
+      "url": "https://archive.org/download/j-revolusi-2017/j-revolusi.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_paskal",
+      "title": "Paskal (2018)",
+      "url": "https://archive.org/download/paskal-2018/paskal.mp4",
+      "language": "ms",
+      "country": "MY"
+    },
+    {
+      "id": "modern_boa",
+      "title": "BoBoiBoy Movie (2016)",
+      "url": "https://archive.org/download/boboiboy-movie-2016/boboiboy.mp4",
+      "language": "ms",
+      "country": "MY"
+    }
+  ],
+  "behaviorHints": { "adult": false }
+}
